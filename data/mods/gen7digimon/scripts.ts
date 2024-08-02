@@ -1,4 +1,10 @@
 export const Scripts: ModdedBattleScriptsData = {
+	teambuilderConfig: {
+		// for micrometas to only show custom tiers
+		excludeStandardTiers: true,
+		// only to specify the order of custom tiers
+		customTiers: ['Mega', 'Ultimate', 'Champion', 'Rookie', 'In-Training', 'Fresh'],
+	},
 	actions: {
 		canMegaEvo(pokemon) {
 			const species = pokemon.baseSpecies;
