@@ -2254,6 +2254,7 @@ export class TeamValidator {
 		const dex = this.dex;
 		const pokemonGoData = dex.species.getPokemonGoData(species.id);
 		if (dex.gen < 8 || this.format.mod === 'gen8dlc1') return null;
+		if (dex.species.get(set.species).universe === 'Digimon') return null; //Digimon FIX
 		if (!pokemonGoData) {
 			// Handles forms and evolutions not obtainable from Pokemon GO
 			const otherSpecies = this.dex.species.learnsetParent(species);
