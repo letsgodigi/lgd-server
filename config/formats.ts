@@ -81,9 +81,33 @@ export const Formats: FormatList = [
 		column: 1,
 	},
 	{
-		name: "[Gen 7] Digimon Test",
-		desc: "Test",
+		name: "[Gen 7] Digimon Mega",
+		desc: "The premiere metagame for Digimon Showdown!",
 		mod: "gen7digimon",
 		ruleset: ['Standard'],
+	},
+	{
+		section: "Digimon Side Metas",
+		column: 1,
+	},
+	{
+		name: "[Gen 7] Digimon Doubles",
+		desc: "2on2 Digimon battles!",
+		mod: "gen7digimon",
+		gameType: 'doubles',
+		ruleset: ['Standard'],
+	},
+	{
+		name: "[Gen 7] Digimon Triples",
+		desc: "3on3 Digimon battles!",
+		mod: "gen7digimon",
+		gameType: 'triples',
+		ruleset: ['Standard'],
+	},
+	{
+		name: "[Gen 7] Digimon LC",
+		desc: "Use only Fresh/In-Training Digimon at Level 5!",
+		mod: "gen7digimon",
+		ruleset: ['Little Cup', 'Standard'],
 	},
 ];

@@ -70,4 +70,23 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 			}
 		},
 	},
+	littlecup: {
+		inherit: true,
+		desc: "Use only Fresh/In-Training Digimon at Level 5",
+		onValidateSet(set) {
+			const rule_breaks = new Array();
+			const banned_stages = ['Rookie', 'Champion', 'Ultimate', 'Mega'];
+			const mon = this.dex.species.get(set.species);
+			if(banned_stages?.includes(mon.stage)) {
+				rule_breaks.push(
+					`Invalid mon: ${mon.name}.`,
+					`Only Fresh or In-Training Digimon can be used.`
+				);
+			}
+			//Return if rules broken
+			if(rule_breaks.length > 0) {
+				return rule_breaks;
+			}
+		}
+	},
 };
