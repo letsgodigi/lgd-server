@@ -84,6 +84,6 @@ export const Formats: FormatList = [
 		name: "[Gen 7] Digimon Test",
 		desc: "Test",
 		mod: "gen7digimon",
-		ruleset: ['Standard', 'Standard NEXT'],
+		ruleset: ['Standard'],
 	},
 ];

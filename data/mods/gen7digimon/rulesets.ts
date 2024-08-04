@@ -58,31 +58,15 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 				if(set.ability !== mon.abilities[0]) {
 					rule_breaks.push(`Invalid ability: ${mon.name}'s ability is ${mon.abilities[0]}, not ${set.ability}.`);
 				}
+			} else {
+				rule_breaks.push(
+					`Invalid mon: ${mon.name}`,
+					'Pokemon are not allowed in Digimon-only formats.'
+				);
 			}
 			//Return if rules broken
 			if(rule_breaks.length > 0) {
 				return rule_breaks;
-			}
-		},
-	},
-	standardnext: {
-		effectType: 'ValidatorRule',
-		name: 'Standard NEXT',
-		desc: "Restricted teambuilder for Digimon-only formats",
-		onValidateTeam(team) {
-			const invalid_mons = new Array();
-			for (const set of team) {
-				const mon = this.dex.species.get(set.species);
-				//Ban all pokemon
-				if(mon.universe === 'Pokemon') {
-					invalid_mons.push(mon.name);
-				}
-			}
-			if(invalid_mons.length > 0) {
-				return [
-					`Invalid mons: ${invalid_mons}.`,
-					'Pokemon are not allowed in Digimon-only formats.'
-				];
 			}
 		},
 	},
