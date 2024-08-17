@@ -2,11 +2,17 @@ import DIGIMON_SETS from './digimon-sets';
 function getLearnset(learnset) {
 	return learnset.species === this;
 }
+function flatten_string(s:String) {
+	let s_flat = s.replace(/\s/g, "");
+	s_flat = s_flat.replace("-", "");
+	s_flat = s_flat.toLowerCase();
+	return s_flat;
+}
 function correctLearnset(learnset) {
 	let corrected = learnset;
 	for(const i in learnset.moves) {
 		let name = learnset.moves[i];
-		corrected.moves[i] = name.replace(/\s/g, "").toLowerCase();
+		corrected.moves[i] = flatten_string(name);
 	}
 	return corrected;
 }
@@ -14,7 +20,7 @@ function correctMoveset(moveset) {
 	let corrected = moveset;
 	for(const i in moveset) {
 		let name = moveset[i];
-		corrected[i] = name.replace(/\s/g, "").toLowerCase();
+		corrected[i] = flatten_string(name);
 	}
 	return corrected;
 }
