@@ -766,7 +766,7 @@ export default [
 		"moves": ["Dynamite Kick", "DG Dimension V3", "Spinning Shot", "Facade", "Headbutt", "Wind Cutter", "Fire Tower", "Metal Sprinter", "Buster Dive", "Infinity Burn", "Megalo Spark", "Reverse Program", "Fighting Aura", "Flame Storm", "Prominence Beam", "Thunder Justice", "Thunderstorm", "Electric Chute", "Guard Charge Field", "Guard Charge", "Protect", "Rest", "Substitute", "Guard Break Field", "Anti-Paralysis", "Toxic"],
 	},
 	{
-		"species": "Machinedramon ",
+		"species": "Machinedramon",
 		"universe": "Digimon",
 		"moves": ["Dynamite Kick", "DG Dimension V3", "Spinning Shot", "Facade", "Headbutt", "Wind Cutter", "Blackout", "Metal Sprinter", "Buster Dive", "Infinity Burn", "Megalo Spark", "Reverse Program", "Fighting Aura", "DG Nightmare", "Prominence Beam", "Thunder Justice", "Thunderstorm", "Electric Chute", "Guard Charge Field", "Guard Charge", "Protect", "Rest", "Substitute", "Guard Break Field", "Anti-Paralysis", "Toxic"],
 	},
