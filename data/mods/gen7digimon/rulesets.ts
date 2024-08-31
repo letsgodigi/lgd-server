@@ -66,14 +66,34 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 				}
 			} else {
 				rule_breaks.push(
-					`Invalid mon: ${mon.name}`,
+					`Invalid mon: ${mon.name}.`,
 					'Pokemon are not allowed in Digimon-only formats.'
 				);
 			}
 			//Return if rules broken
-			if(rule_breaks.length > 0) {
-				return rule_breaks;
+			if(rule_breaks.length > 0) return rule_breaks;
+		},
+		onValidateTeam(team) {
+			const rule_breaks = new Array();
+			//Base Species check
+			const base_species = new Array();
+			for(const set of team) {
+				const mon = this.dex.species.get(set.species);
+				if(mon.baseSpecies) {
+					if(base_species?.includes(mon.baseSpecies)) {
+						rule_breaks.push(
+							`Invalid mon: ${mon.name}.`,
+							`Only one ${mon.baseSpecies} is allowed per-team.`
+						);
+					} else {
+						base_species.push(mon.baseSpecies);
+					}
+				} else {
+					base_species.push(mon.name);
+				}
 			}
+			//Return if rules broken
+			if(rule_breaks.length > 0) return rule_breaks;
 		},
 	},
 	littlecup: {
