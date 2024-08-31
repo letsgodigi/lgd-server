@@ -79,14 +79,14 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 			const base_species = new Array();
 			for(const set of team) {
 				const mon = this.dex.species.get(set.species);
-				if(mon.baseSpecies) {
-					if(base_species?.includes(mon.baseSpecies)) {
+				if(mon.baseDigimon) {
+					if(base_species?.includes(mon.baseDigimon)) {
 						rule_breaks.push(
 							`Invalid mon: ${mon.name}.`,
-							`Only one ${mon.baseSpecies} is allowed per-team.`
+							`Only one ${mon.baseDigimon} is allowed per-team.`
 						);
 					} else {
-						base_species.push(mon.baseSpecies);
+						base_species.push(mon.baseDigimon);
 					}
 				} else {
 					base_species.push(mon.name);

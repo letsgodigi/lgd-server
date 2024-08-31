@@ -274,7 +274,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	blackagumon: {
 		num: -2019,
 		name: "BlackAgumon",
-		baseSpecies: "Agumon",
+		baseDigimon: "Agumon",
 		stage: "Rookie",
 		universe: "Digimon",
 		types: ["Fire", "Dark"],
@@ -291,7 +291,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	blackgabumon: {
 		num: -2020,
 		name: "BlackGabumon",
-		baseSpecies: "Gabumon",
+		baseDigimon: "Gabumon",
 		stage: "Rookie",
 		universe: "Digimon",
 		types: ["Dark", "Ice"],
@@ -306,7 +306,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	clearagumon: {
 		num: -2021,
 		name: "ClearAgumon",
-		baseSpecies: "Agumon",
+		baseDigimon: "Agumon",
 		stage: "Rookie",
 		universe: "Digimon",
 		types: ["Fairy", "Steel"],
@@ -469,7 +469,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	modokibetamon: {
 		num: -2032,
 		name: "ModokiBetamon",
-		baseSpecies: "Betamon",
+		baseDigimon: "Betamon",
 		universe: "Digimon",
 		stage: "Rookie",
 		types: ["Water", "Electric"],
@@ -602,7 +602,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	snowagumon: {
 		num: -2041,
 		name: "SnowAgumon",
-		baseSpecies: "Agumon",
+		baseDigimon: "Agumon",
 		stage: "Rookie",
 		universe: "Digimon",
 		types: ["Ice"],
@@ -617,7 +617,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	snowgoburimon: {
 		num: -2042,
 		name: "SnowGoburimon",
-		baseSpecies: "Goburimon",
+		baseDigimon: "Goburimon",
 		stage: "Rookie",
 		universe: "Digimon",
 		types: ["Ice", "Fighting"],
@@ -646,7 +646,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	toyagumon: {
 		num: -2044,
 		name: "ToyAgumon",
-		baseSpecies: "Agumon",
+		baseDigimon: "Agumon",
 		stage: "Rookie",
 		universe: "Digimon",
 		types: ["Steel"],
@@ -745,7 +745,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	blackgarurumon: {
 		num: -2051,
 		name: "BlackGarurumon",
-		baseSpecies: "Garurumon",
+		baseDigimon: "Garurumon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Ice", "Dark"],
@@ -760,7 +760,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	blackgatomon: {
 		num: -2052,
 		name: "BlackGatomon",
-		baseSpecies: "Gatomon",
+		baseDigimon: "Gatomon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Dark"],
@@ -775,7 +775,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	blackgreymon: {
 		num: -2053,
 		name: "BlackGreymon",
-		baseSpecies: "Greymon",
+		baseDigimon: "Greymon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Fire", "Dark"],
@@ -1062,7 +1062,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	icedevimon: {
 		num: -2073,
 		name: "IceDevimon",
-		baseSpecies: "Devimon",
+		baseDigimon: "Devimon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Dark", "Ice"],
@@ -1105,7 +1105,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	junglemojyamon: {
 		num: -2076,
 		name: "JungleMojyamon",
-		baseSpecies: "Mojyamon",
+		baseDigimon: "Mojyamon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Normal"],
@@ -1254,7 +1254,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	morishellmon: {
 		num: -2086,
 		name: "MoriShellmon",
-		baseSpecies: "Shellmon",
+		baseDigimon: "Shellmon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Grass", "Rock"],
@@ -1269,7 +1269,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	mudfrigimon: {
 		num: -2087,
 		name: "MudFrigimon",
-		baseSpecies: "Frigimon",
+		baseDigimon: "Frigimon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Ground", "Normal"],
@@ -1312,7 +1312,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	nisedrimogemon: {
 		num: -2090,
 		name: "NiseDrimogemon",
-		baseSpecies: "Drimogemon",
+		baseDigimon: "Drimogemon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Steel", "Ground"],
@@ -1373,7 +1373,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	platinumsukamon: {
 		num: -2094,
 		name: "PlatinumSukamon",
-		baseSpecies: "Sukamon",
+		baseDigimon: "Sukamon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Poison", "Steel"],
@@ -1388,7 +1388,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	redvegiemon: {
 		num: -2095,
 		name: "RedVegiemon",
-		baseSpecies: "Vegiemon",
+		baseDigimon: "Vegiemon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Grass", "Fire"],
@@ -1475,7 +1475,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	shimaunimon: {
 		num: -2101,
 		name: "ShimaUnimon",
-		baseSpecies: "Unimon",
+		baseDigimon: "Unimon",
 		stage: "Champion",
 		universe: "Digimon",
 		types: ["Normal"],
@@ -1664,7 +1664,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	blackweregarurumon: {
 		num: -2114,
 		name: "BlackWereGarurumon",
-		baseSpecies: "WereGarurumon",
+		baseDigimon: "WereGarurumon",
 		stage: "Ultimate",
 		universe: "Digimon",
 		types: ["Dark", "Fighting"],
@@ -1943,7 +1943,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	metalgreymonvaccine: {
 		num: -2133,
 		name: "MetalGreymon Vaccine",
-		baseSpecies: "MetalGreymon",
+		baseDigimon: "MetalGreymon",
 		stage: "Ultimate",
 		universe: "Digimon",
 		types: ["Fire", "Steel"],
@@ -1960,7 +1960,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	metalgreymonvirus: {
 		num: -2134,
 		name: "MetalGreymon Virus",
-		baseSpecies: "MetalGreymon",
+		baseDigimon: "MetalGreymon",
 		stage: "Ultimate",
 		universe: "Digimon",
 		types: ["Fire", "Dark"],
@@ -2209,7 +2209,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	blackmetalgarurumon: {
 		num: -2151,
 		name: "BlackMetalGarurumon",
-		baseSpecies: "MetalGarurumon",
+		baseDigimon: "MetalGarurumon",
 		stage: "Mega",
 		universe: "Digimon",
 		types: ["Dark", "Ice"],
@@ -2224,7 +2224,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	blackwargreymon: {
 		num: -2152,
 		name: "BlackWarGreymon",
-		baseSpecies: "WarGreymon",
+		baseDigimon: "WarGreymon",
 		stage: "Mega",
 		universe: "Digimon",
 		types: ["Dark", "Fire"],
@@ -2255,7 +2255,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	cherubimonevil: {
 		num: -2154,
 		name: "Cherubimon Evil",
-		baseSpecies: "Cherubimon",
+		baseDigimon: "Cherubimon",
 		stage: "Mega",
 		universe: "Digimon",
 		types: ["Dark", "Fairy"],
@@ -2272,7 +2272,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	cherubimongood: {
 		num: -2155,
 		name: "Cherubimon Good",
-		baseSpecies: "Cherubimon",
+		baseDigimon: "Cherubimon",
 		stage: "Mega",
 		universe: "Digimon",
 		types: ["Fairy"],
@@ -2499,7 +2499,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData & {stage: string}} = {
 	omnimonzwart: {
 		num: -2170,
 		name: "OmnimonZwart",
-		baseSpecies: "Omnimon",
+		baseDigimon: "Omnimon",
 		stage: "Mega",
 		universe: "Digimon",
 		types: ["Dark", "Fairy"],
